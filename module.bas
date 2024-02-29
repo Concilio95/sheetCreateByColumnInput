@@ -1,9 +1,9 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "createSheetByInput"
 Sub createSheetsBy_input()
 
-'Notes: We can not create a sheet with no name.
+'Notes: In MS Excel we can not create a worksheet with no name.
 
-    Dim sourceRange As Range 'Declare sourceRange as a Range for storing the range from where we are going to get the titles.
+    Dim sourceRange As Range 'Declare sourceRange as a Range for storing the range from where we will get the titles.
     Dim sourceCell As Range  'Declare sourceRange as a Range for storing the cells inside the range (sourceRange).
     On Error GoTo Errorhandling
     

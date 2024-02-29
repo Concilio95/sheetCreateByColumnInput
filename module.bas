@@ -8,7 +8,7 @@ Sub createSheetsBy_input()
     On Error GoTo Errorhandling
     
     '---------- Spanish version ----------
-    Set sourceRange = Application.InputBox(Prompt:="Selecciona el rango de celdas de donde vienen los títulos:", _
+    Set sourceRange = Application.InputBox(Prompt:="Selecciona el rango de celdas de donde vienen los tÃ­tulos:", _
     Title:="Vamos a crear (sheet) hojas nuevas ", _
     Default:=Selection.Address, Type:=8)
     

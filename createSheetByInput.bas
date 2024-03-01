@@ -1,5 +1,5 @@
-Attribute VB_Name = "createSheetByInput"
-Sub createSheetsBy_input()
+Attribute VB_Name = "sheetCreateByColumnInput"
+Sub sheetCreateByColumnInput()
 
 'Notes: In MS Excel we can not create a worksheet with no name.
 

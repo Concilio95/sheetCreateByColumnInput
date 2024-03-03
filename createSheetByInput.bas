@@ -14,8 +14,8 @@ Sub sheetCreateByColumnInput()
     
     '---------- English version ----------
     'Set sourceRange = Application.InputBox(Prompt:="Select a cell range for the sheet titles.:", _
-    Title:="Create sheets", _
-    Default:=Selection.Address, Type:=8)
+    'Title:="Create sheets", _
+    'Default:=Selection.Address, Type:=8)
     
     For Each sourceCell In sourceRange 'Checks if the sourceCell variable is NOT empty. If the sourceCell variable is empty the procedure goes to "End If" line.
         If sourceCell <> "" Then

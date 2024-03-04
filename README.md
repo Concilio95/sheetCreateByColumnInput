@@ -1,2 +1,2 @@
 # sheetCreateByColumnInput()
-A VBA script for creating new worksheets within a workbook based on a range of unique values.
+A VBA script that creates new WorkSheets within a Workbook based on an inputted Range of unique values.
